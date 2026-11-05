@@ -2,7 +2,7 @@
 # Install INSTRUCTIONS.md as the global instructions file of coding agents.
 set -euo pipefail
 
-VERSION="2.0.0" # x-release-please-version
+VERSION="0.0.1" # x-release-please-version
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SOURCE="$SCRIPT_DIR/INSTRUCTIONS.md"
