@@ -4,12 +4,12 @@ One set of global instructions, [INSTRUCTIONS.md](INSTRUCTIONS.md), shared by se
 
 ## Targets
 
-| Target     | Agent        | Installed to                                       |
-| ---------- | ------------ | -------------------------------------------------- |
-| `claude`   | Claude Code  | `~/.claude/CLAUDE.md`                              |
-| `opencode` | opencode     | `${XDG_CONFIG_HOME:-~/.config}/opencode/AGENTS.md` |
-| `vibe`     | Mistral Vibe | `~/.vibe/AGENTS.md`                                |
-| `codex`    | Codex CLI    | `~/.codex/AGENTS.md`                               |
+| Target     | Agent        | Installed to                                                |
+| ---------- | ------------ | ----------------------------------------------------------- |
+| `claude`   | Claude Code  | `~/.claude/CLAUDE.md`                                       |
+| `opencode` | opencode     | `$XDG_CONFIG_HOME/opencode/AGENTS.md` (default `~/.config`) |
+| `vibe`     | Mistral Vibe | `~/.vibe/AGENTS.md`                                         |
+| `codex`    | Codex CLI    | `~/.codex/AGENTS.md`                                        |
 
 ## Usage
 
