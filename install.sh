@@ -19,7 +19,7 @@ Commands:
 
 Targets:
   claude      ~/.claude/CLAUDE.md
-  opencode    ${XDG_CONFIG_HOME:-~/.config}/opencode/AGENTS.md
+  opencode    $XDG_CONFIG_HOME/opencode/AGENTS.md (default ~/.config)
   vibe        ~/.vibe/AGENTS.md
   codex       ~/.codex/AGENTS.md
   all         all of the above
