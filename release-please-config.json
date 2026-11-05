@@ -4,7 +4,7 @@
     ".": {
       "release-type": "simple",
       "include-v-in-tag": true,
-      "extra-files": ["INSTRUCTIONS.md"],
+      "extra-files": ["INSTRUCTIONS.md", "install.sh"],
       "changelog-sections": [
         { "type": "feat", "section": "Features" },
         { "type": "fix", "section": "Bug Fixes" },

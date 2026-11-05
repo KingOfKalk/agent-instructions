@@ -60,4 +60,4 @@ Thanks for your interest. This repo follows a tight, issue-driven workflow. Alwa
   - Minor: `feat`.
   - Patch: `fix`, `perf`, `revert`, `docs`.
 - `style`, `refactor`, `test`, `build`, `ci`, and `chore` are hidden from the changelog and don't trigger a release on their own.
-- Don't edit `CHANGELOG.md`, the version in `INSTRUCTIONS.md` frontmatter, or `.release-please-manifest.json` by hand — release-please owns them.
+- Don't edit `CHANGELOG.md`, the version in `INSTRUCTIONS.md` frontmatter or `install.sh`, or `.release-please-manifest.json` by hand — release-please owns them.
