@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/KingOfKalk/agent-instructions/compare/v0.1.0...v0.1.1) (2026-11-05)
+
+
+### Documentation
+
+* simplify opencode target path in README and install.sh help ([#4](https://github.com/KingOfKalk/agent-instructions/issues/4)) ([172547e](https://github.com/KingOfKalk/agent-instructions/commit/172547e53acbc28b208db6e8de42c946dc2e2130)), closes [#3](https://github.com/KingOfKalk/agent-instructions/issues/3)
+
 ## [0.1.0](https://github.com/KingOfKalk/agent-instructions/compare/v0.0.1...v0.1.0) (2026-11-05)
 
 
