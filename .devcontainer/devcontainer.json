@@ -1,15 +1,13 @@
 {
-  "name": "claude-development",
+  "name": "agent-instructions-development",
   "image": "mcr.microsoft.com/devcontainers/base:2.2.5-trixie",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2.7.1": {},
-    "ghcr.io/devcontainers/features/github-cli:1.1.3": {},
-    "ghcr.io/devcontainers-extra/features/claude-code:2.0.3": {}
+    "ghcr.io/devcontainers/features/github-cli:1.1.3": {}
   },
   "customizations": {
     "vscode": {
       "extensions": [
-        "anthropic.claude-code",
         "bierner.markdown-mermaid",
         "EditorConfig.EditorConfig",
         "esbenp.prettier-vscode",
