@@ -10,7 +10,7 @@ version: v0.1.1 # x-release-please-version
 - Development → rules 11–15
 - Tooling → rules 16–17
 - Git guardrails → rules 18–21
-- Git workflow → rules 22–23
+- Git workflow → rules 22–24
 
 ## Rules
 
@@ -53,3 +53,4 @@ version: v0.1.1 # x-release-please-version
 23. For any part of the workflow they don't define, use:
     - Commit messages and PR titles: [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/).
     - Branch names: `<type>/<issue-number>-<slug>`, or `<type>/<slug>` without an issue. `<type>` is the dominant Conventional Commit type, `<slug>` a short kebab-case description.
+24. Do each task that creates a branch in its own git worktree at `.worktrees/<branch>` in the repo root, with `/` in the branch name replaced by `-`. Keep the main checkout on the default branch. Add `.worktrees/` to `.git/info/exclude` if missing. `cd` into the worktree (see rule 19). Remove the worktree after its branch is merged or abandoned.
