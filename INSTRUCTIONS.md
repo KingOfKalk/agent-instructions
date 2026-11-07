@@ -1,5 +1,5 @@
 ---
-version: v0.1.1 # x-release-please-version
+version: v0.2.0 # x-release-please-version
 ---
 
 # INSTRUCTIONS
