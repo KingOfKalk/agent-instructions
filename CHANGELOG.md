@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/KingOfKalk/agent-instructions/compare/v0.2.0...v0.3.0) (2026-11-13)
+
+
+### Features
+
+* **rules/git-workflow:** open pull requests as drafts until ready to merge ([#13](https://github.com/KingOfKalk/agent-instructions/issues/13)) ([bf84f8b](https://github.com/KingOfKalk/agent-instructions/commit/bf84f8bcf7d37f1566e75a36b8be95deaf8b350a)), closes [#12](https://github.com/KingOfKalk/agent-instructions/issues/12)
+
 ## [0.2.0](https://github.com/KingOfKalk/agent-instructions/compare/v0.1.1...v0.2.0) (2026-11-07)
 
 
